@@ -1,0 +1,86 @@
+.Hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.HeroVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  z-index: 2;  
+}
+
+  h1.BDL1 {
+    /* font-family: "Bebas Neue", "Roboto Condensed", "Montserrat","Oswald","Titillium Web","Bungee" ; */
+    /* font-family: "Montserrat"; */
+    font-family: "Patua One";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: .6;
+    margin-bottom: 24px;
+    color: maroon;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  h1.BDL2 {
+    font-family: "Patua One";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: .6;
+    margin-bottom: 24px;
+    color: orangered;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  h1.BDL3 {
+    font-family: "Carter One";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: .6;
+    margin-bottom: 24px;
+    color: white;
+    text-align: center;
+  }
+  
+  p.Established {
+    font-family:"Concert One";
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 48px;
+    text-align: center;
+    -webkit-text-stroke-width: px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff6347;
+  }
+  

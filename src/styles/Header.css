@@ -1,0 +1,56 @@
+.Header {
+  background-color: maroon;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.Header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.Header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.Header nav ul li {
+  margin-left: 20px;
+}
+
+.Header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .Header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Header h1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .Header nav {
+    margin-top: 20px;
+  }
+
+  .Header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Header nav ul li {
+    margin: 10px 0;
+  }
+}

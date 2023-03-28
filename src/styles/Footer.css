@@ -1,0 +1,19 @@
+.Footer {
+    background-color: #292929;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .Footer p {
+    margin: 0;
+  }
+  
+  .Footer a {
+    color: #fff;
+  }
+  
+  .Footer a:hover {
+    color: #ddd;
+  }
+  
