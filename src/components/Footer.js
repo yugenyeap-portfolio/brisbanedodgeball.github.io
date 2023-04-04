@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <div className="footer-container">
-        <p>&copy; 2023 Dodgeball Club</p>
+        <p>&copy; 2023 Brisbane Dodgeball League</p>
       </div>
     </footer>
   );

@@ -1,19 +1,19 @@
 import React from 'react';
 import '../styles/Header.css';
+import logo from '../logo_2023.JPG';
+
 
 function Header() {
   return (
     <header className="Header">
       <div className="header-container">
         <nav class="navbar-header">
-          {/* <a href="/">
-            <img src={logo} alt="Dodgeball Club" />
-          </a> */}
           <ul>
-            <li><a href="#about">Events</a></li>
+          <li><a href="#about">About</a></li>
             <li><a href="#about">Schedule</a></li>
+            <li><a href="/"><img class="header-logo" src={logo} alt="Dodgeball Club"/></a></li>
             <li><a href="#about">Rankings</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">FAQ</a></li>
           </ul>
         </nav>
       </div>

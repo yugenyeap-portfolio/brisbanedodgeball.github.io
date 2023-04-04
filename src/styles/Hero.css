@@ -11,12 +11,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: brightness(50%);
   z-index: -1;
 }
 
 .hero-container {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: auto;
@@ -26,25 +27,25 @@
   h1.BDL1 {
     /* font-family: "Bebas Neue", "Roboto Condensed", "Montserrat","Oswald","Titillium Web","Bungee" ; */
     /* font-family: "Montserrat"; */
-    font-family: "Patua One";
+    font-family: "Varela Round";
     font-size: 96px;
     font-weight: 700;
     line-height: .6;
     margin-bottom: 24px;
-    color: maroon;
+    color: white;
     text-align: center;
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-width: 0.1px; */
     -webkit-text-stroke-color: black;
   }
   h1.BDL2 {
-    font-family: "Patua One";
+    font-family: "Varela Round";
     font-size: 96px;
     font-weight: 700;
     line-height: .6;
     margin-bottom: 24px;
-    color: orangered;
+    color: white;
     text-align: center;
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: black;
   }
   h1.BDL3 {
@@ -55,6 +56,8 @@
     margin-bottom: 24px;
     color: white;
     text-align: center;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: white;
   }
   
   p.Established {
@@ -64,7 +67,7 @@
     font-weight: 300;
     margin-bottom: 48px;
     text-align: center;
-    -webkit-text-stroke-width: px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
   
@@ -82,5 +85,11 @@
   
   .btn-primary:hover {
     background-color: #ff6347;
+  }
+
+  .logo {
+    border-radius: 500px;
+    height: 400px;
+    width: 400px;
   }
   
