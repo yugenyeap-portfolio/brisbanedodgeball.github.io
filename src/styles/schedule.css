@@ -1,0 +1,28 @@
+.schedule {
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .schedule h1 {
+    font-family: 'Lilita One','Bungee', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .schedule ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .schedule li {
+    font-family: 'Concert One', sans-serif;
+    margin-bottom: 15px;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+  }
+  

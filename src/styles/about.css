@@ -1,0 +1,39 @@
+.about {
+    background-color: rgba(128, 0, 0);
+    color: #fff;
+    /* max-width: 800px; */
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-family: "Lilita One";
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .about p {
+    font-family:"Concert One";
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+  @keyframes slide-in {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .slide-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slide-in 0.5s ease-out forwards;
+  }
+  

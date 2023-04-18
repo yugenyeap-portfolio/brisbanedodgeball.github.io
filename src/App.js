@@ -2,8 +2,8 @@ import React from 'react';
 import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
-// import About from './components/About';
-// import Benefits from './components/Benefits';
+import About from './components/About';
+import Schedule from './components/Schedule';
 // import Testimonials from './components/Testimonials';
 // import Gallery from './components/Gallery';
 // import FAQ from './components/FAQ';
@@ -16,8 +16,8 @@ function App() {
       <Header />
       <main>
         <Hero />
-        {/* <About /> */}
-        {/* <Benefits /> */}
+        <About />
+        <Schedule />
         {/* <Testimonials /> */}
         {/* <Gallery /> */}
         {/* <FAQ /> */}
