@@ -9,6 +9,8 @@ import Schedule from './components/Schedule';
 // import FAQ from './components/FAQ';
 // import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (

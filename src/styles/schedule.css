@@ -11,18 +11,55 @@
     font-size: 3rem;
     margin-bottom: 30px;
   }
+
+  .schedule h2 {
+    font-family: 'Lilita One','Bungee', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
   
   .schedule ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+
+  .schedule table {
+    width: 100%;
+    font-size: 3rem;
+  }
   
-  .schedule li {
+  .schedule th {
     font-family: 'Concert One', sans-serif;
     margin-bottom: 15px;
     color: white;
     text-align: left;
     line-height: 1.5;
   }
+
+  .schedule thead {
+    font-family: 'Concert One', sans-serif;
+    margin-bottom: 15px;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .schedule td {
+    font-family: 'Concert One', sans-serif;
+    margin-bottom: 15px;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .schedule tr {
+    font-family: 'Concert One', sans-serif;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+  }
+
   

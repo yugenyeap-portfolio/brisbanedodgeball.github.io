@@ -4,7 +4,7 @@ import "../styles/about.css";
 function About() {
     return (
         <div id="about" className="about">
-            <h1 >About Our Dodgeball League</h1>
+            <h1 >About Us</h1>
             <p class="slide-in">We are Brisbane's newest WDBF 7" foam premier dodgeball league. Our league is dedicated to providing a fun and competitive environment for dodgeball enthusiasts of all skill levels.</p>
             <p class="slide-in">Whether you're a seasoned veteran or just starting out, our league has something for everyone. We offer competitive and social divisions, and we're always looking for new players to join us on the court.</p>
             <p class="slide-in">So come on out and experience the thrill of dodgeball with Brisbane's newest premier league!</p>
