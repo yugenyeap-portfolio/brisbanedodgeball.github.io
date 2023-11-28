@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brisbanedodgeball.github.io/static/css/main.5caddd08.css",
+    "main.js": "/brisbanedodgeball.github.io/static/js/main.16a347fb.js",
+    "static/media/logo_2023.JPG": "/brisbanedodgeball.github.io/static/media/logo_2023.ea830f1f425c291cc0fe.JPG",
+    "index.html": "/brisbanedodgeball.github.io/index.html",
+    "static/media/hero.mp4": "/brisbanedodgeball.github.io/static/media/hero.22f346a73a171e477825.mp4",
+    "main.5caddd08.css.map": "/brisbanedodgeball.github.io/static/css/main.5caddd08.css.map",
+    "main.16a347fb.js.map": "/brisbanedodgeball.github.io/static/js/main.16a347fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5caddd08.css",
+    "static/js/main.16a347fb.js"
+  ]
+}
