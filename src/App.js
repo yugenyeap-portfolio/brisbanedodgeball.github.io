@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Schedule from './components/Schedule';
-// import Testimonials from './components/Testimonials';
-// import Gallery from './components/Gallery';
+import InfoBox from './components/InfoBox';
+import Register from './components/Register';
 // import FAQ from './components/FAQ';
 // import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
@@ -18,8 +18,12 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <div className="flex-container">
+          <InfoBox />
+          <Register />
+        </div>
+          <Schedule />
         <About />
-        <Schedule />
         {/* <Testimonials /> */}
         {/* <Gallery /> */}
         {/* <FAQ /> */}

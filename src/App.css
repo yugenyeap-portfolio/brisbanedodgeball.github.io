@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(160, 0, 0);
 }
 
 .App-logo {
@@ -26,6 +27,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.flex-container > div {
+  width: 1000px;
+  height: 1000px;
+  color: rgb(160, 0, 0);
+  background-color: rgb(160, 0, 0); 
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
 }
 
 @keyframes App-logo-spin {
